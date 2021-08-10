@@ -1,0 +1,1296 @@
+
+lib0.o:	file format ELF32-arm-little
+
+
+Disassembly of section .strtab:
+
+00000000 .strtab:
+       0: 00 2e 72 65                  	ldrbvs	r2, [r2, #-3584]!
+       4: 6c 2e 41 52                  	subpl	r2, r1, #108, #28
+       8: 4d 2e 65 78                  	stmdavc	r5!, {r0, r2, r3, r6, r9, r10, r11, sp} ^
+       c: 69 64 78 00                  	rsbseq	r6, r8, r9, ror #8
+      10: 2e 64 65 62                  	rsbvs	r6, r5, #771751936
+      14: 75 67 5f 61                  	cmpvs	pc, r5, ror r7
+      18: 62 62 72 65                  	ldrbvs	r6, [r2, #-610]!
+      1c: 76 00 2e 72                  	eorvc	r0, lr, #118
+      20: 65 6c 2e 74                  	strtvc	r6, [lr], #-3173
+      24: 65 78 74 00                  	rsbseq	r7, r4, r5, ror #16
+      28: 2e 62 73 73                  	cmnvc	r3, #-536870910
+      2c: 00 2e 41 52                  	subpl	r2, r1, #0, #28
+      30: 4d 2e 61 74                  	strbtvc	r2, [r1], #-3661
+      34: 74 72 69 62                  	rsbvs	r7, r9, #116, #4
+      38: 75 74 65 73                  	<unknown>
+      3c: 00 2e 72 65                  	ldrbvs	r2, [r2, #-3584]!
+      40: 6c 2e 64 65                  	strbvs	r2, [r4, #-3692]!
+      44: 62 75 67 5f                  	svcpl	#6780258
+      48: 70 75 62 74                  	strbtvc	r7, [r2], #-1392
+      4c: 79 70 65 73                  	<unknown>
+      50: 00 2e 72 65                  	ldrbvs	r2, [r2, #-3584]!
+      54: 6c 2e 64 65                  	strbvs	r2, [r4, #-3692]!
+      58: 62 75 67 5f                  	svcpl	#6780258
+      5c: 70 75 62 6e                  	mcrvs	p5, #3, r7, c2, c0, #3
+      60: 61 6d 65 73                  	<unknown>
+      64: 00 2e 64 65                  	strbvs	r2, [r4, #-3584]!
+      68: 62 75 67 5f                  	svcpl	#6780258
+      6c: 73 74 72 00                  	rsbseq	r7, r2, r3, ror r4
+      70: 2e 4c 2e 73                  	<unknown>
+      74: 74 72 00 5f                  	svcpl	#29300
+      78: 5f 54 56 4d                  	ldclmi	p4, c5, [r6, #-380]
+      7c: 41 50 49 53                  	<unknown>
+      80: 65 74 4c 61                  	<unknown>
+      84: 73 74 45 72                  	subvc	r7, r5, #1929379840
+      88: 72 6f 72 00                  	rsbseq	r6, r2, r2, ror pc
+      8c: 2e 72 65 6c                  	stclvs	p2, c7, [r5], #-184
+      90: 2e 64 65 62                  	rsbvs	r6, r5, #771751936
+      94: 75 67 5f 69                  	ldmdbvs	pc, {r0, r2, r4, r5, r6, r8, r9, r10, sp, lr} ^
+      98: 6e 66 6f 00                  	rsbeq	r6, pc, lr, ror #12
+      9c: 2e 6e 6f 74                  	strbtvc	r6, [pc], #-3630
+      a0: 65 2e 47 4e                  	cdpmi	p14, #4, c2, c7, c5, #3
+      a4: 55 2d 73 74                  	ldrbtvc	r2, [r3], #-3413
+      a8: 61 63 6b 00                  	rsbeq	r6, r11, r1, ror #6
+      ac: 61 64 64 5f                  	svcpl	#6579297
+      b0: 6f 6e 65 00                  	rsbeq	r6, r5, pc, ror #28
+      b4: 2e 64 65 62                  	rsbvs	r6, r5, #771751936
+      b8: 75 67 5f 6c                  	mrrcvs	p7, #7, r6, pc, c5
+      bc: 69 6e 65 00                  	rsbeq	r6, r5, r9, ror #28
+      c0: 2e 72 65 6c                  	stclvs	p2, c7, [r5], #-184
+      c4: 2e 64 65 62                  	rsbvs	r6, r5, #771751936
+      c8: 75 67 5f 66                  	usub16vs	r6, pc, r5
+      cc: 72 61 6d 65                  	strbvs	r6, [sp, #-370]!
+      d0: 00 54 56 4d                  	ldclmi	p4, c5, [r6, #-0]
+      d4: 4d 6f 64 00                  	rsbeq	r6, r4, sp, asr #30
+      d8: 2e 73 74 72                  	rsbsvc	r7, r4, #-1207959552
+      dc: 74 61 62 00                  	rsbeq	r6, r2, r4, ror r1
+      e0: 2e 73 79 6d                  	ldclvs	p3, c7, [r9, #-184]!
+      e4: 74 61 62 00                  	rsbeq	r6, r2, r4, ror r1
+      e8: 2e 72 6f 64                  	strbtvs	r7, [pc], #-558
+      ec: 61 74 61 00                  	rsbeq	r7, r1, r1, ror #8
+      f0: 2e 4c 61 64                  	strbtvs	r4, [r1], #-3118
+      f4: 64 5f 6f 6e                  	cdpvs	p15, #6, c5, c15, c4, #3
+      f8: 65 5f 63 6f                  	svcvs	#6512485
+      fc: 6d 70 75 74                  	ldrbtvc	r7, [r5], #-109
+     100: 65 5f 00 5f                  	svcpl	#24421
+     104: 5f 74 76 6d                  	ldclvs	p4, c7, [r6, #-380]!
+     108: 5f 6d 61 69                  	stmdbvs	r1!, {r0, r1, r2, r3, r4, r6, r8, r10, r11, sp, lr} ^
+     10c: 6e 5f 5f 00                  	subseq	r5, pc, lr, ror #30
+     110: 2e 4c 2e 73                  	<unknown>
+     114: 74 72 2e 39                  	stmdblo	lr!, {r2, r4, r5, r6, r9, r12, sp, lr}
+     118: 00 2e 4c 2e                  	cdphs	p14, #4, c2, c12, c0, #0
+     11c: 73 74 72 2e                  	mrchs	p4, #3, r7, c2, c3, #3
+     120: 38 00 2e 4c                  	stcmi	p0, c0, [lr], #-224
+     124: 2e 73 74 72                  	rsbsvc	r7, r4, #-1207959552
+     128: 2e 37 00 2e                  	cdphs	p7, #0, c3, c0, c14, #1
+     12c: 4c 2e 73 74                  	ldrbtvc	r2, [r3], #-3660
+     130: 72 2e 36 00                  	eorseq	r2, r6, r2, ror lr
+     134: 2e 4c 2e 73                  	<unknown>
+     138: 74 72 2e 31                  	<unknown>
+     13c: 35 00 2e 4c                  	stcmi	p0, c0, [lr], #-212
+     140: 2e 73 74 72                  	rsbsvc	r7, r4, #-1207959552
+     144: 2e 35 00 2e                  	cdphs	p5, #0, c3, c0, c14, #1
+     148: 4c 2e 73 74                  	ldrbtvc	r2, [r3], #-3660
+     14c: 72 2e 31 34                  	ldrtlo	r2, [r1], #-3698
+     150: 00 2e 4c 2e                  	cdphs	p14, #4, c2, c12, c0, #0
+     154: 73 74 72 2e                  	mrchs	p4, #3, r7, c2, c3, #3
+     158: 34 00 5f 5f                  	svcpl	#6225972
+     15c: 61 64 64 73                  	<unknown>
+     160: 66 33 00 2e                  	cdphs	p3, #0, c3, c0, c6, #3
+     164: 4c 2e 73 74                  	ldrbtvc	r2, [r3], #-3660
+     168: 72 2e 31 33                  	teqlo	r1, #1824
+     16c: 00 2e 4c 2e                  	cdphs	p14, #4, c2, c12, c0, #0
+     170: 73 74 72 2e                  	mrchs	p4, #3, r7, c2, c3, #3
+     174: 33 00 2e 4c                  	stcmi	p0, c0, [lr], #-204
+     178: 2e 73 74 72                  	rsbsvc	r7, r4, #-1207959552
+     17c: 2e 31 32 00                  	eorseq	r3, r2, lr, lsr #2
+     180: 2e 4c 2e 73                  	<unknown>
+     184: 74 72 2e 32                  	eorlo	r7, lr, #116, #4
+     188: 00 24 61 2e                  	cdphs	p4, #6, c2, c1, c0, #0
+     18c: 32 00 2e 4c                  	stcmi	p0, c0, [lr], #-200
+     190: 2e 73 74 72                  	rsbsvc	r7, r4, #-1207959552
+     194: 2e 31 31 00                  	eorseq	r3, r1, lr, lsr #2
+     198: 2e 4c 2e 73                  	<unknown>
+     19c: 74 72 2e 31                  	<unknown>
+     1a0: 00 24 64 2e                  	cdphs	p4, #6, c2, c4, c0, #0
+     1a4: 31 00 5f 5f                  	svcpl	#6225969
+     1a8: 61 65 61 62                  	rsbvs	r6, r1, #406847488
+     1ac: 69 5f 75 6e                  	cdpvs	p15, #7, c5, c5, c9, #3
+     1b0: 77 69 6e 64                  	strbtvs	r6, [lr], #-2423
+     1b4: 5f 63 70 70                  	rsbsvc	r6, r0, pc, asr r3
+     1b8: 5f 70 72 30                  	rsbslo	r7, r2, pc, asr r0
+     1bc: 00 2e 4c 2e                  	cdphs	p14, #4, c2, c12, c0, #0
+     1c0: 73 74 72 2e                  	mrchs	p4, #3, r7, c2, c3, #3
+     1c4: 31 30 00 24                  	strhs	r3, [r0], #-49
+     1c8: 61 2e 30 00                  	eorseq	r2, r0, r1, ror #28
+
+Disassembly of section .text:
+
+00000000 add_one:
+       0: 70 40 2d e9                  	push	{r4, r5, r6, lr}
+       4: 02 00 52 e3                  	cmp	r2, #2
+       8: 6b 00 00 1a                  	bne	#428 <add_one+0x1bc>
+       c: 00 30 91 e5                  	ldr	r3, [r1]
+      10: 0d 00 53 e3                  	cmp	r3, #13
+      14: 40 00 00 8a                  	bhi	#256 <add_one+0x11c>
+      18: 98 20 a0 e3                  	mov	r2, #152
+      1c: 01 50 a0 e3                  	mov	r5, #1
+      20: 02 2a 82 e3                  	orr	r2, r2, #8192
+      24: 15 03 12 e1                  	tst	r2, r5, lsl r3
+      28: 3b 00 00 0a                  	beq	#236 <add_one+0x11c>
+      2c: 04 10 91 e5                  	ldr	r1, [r1, #4]
+      30: 0d 00 51 e3                  	cmp	r1, #13
+      34: 3e 00 00 8a                  	bhi	#248 <add_one+0x134>
+      38: 01 30 a0 e3                  	mov	r3, #1
+      3c: 13 01 12 e1                  	tst	r2, r3, lsl r1
+      40: 3b 00 00 0a                  	beq	#236 <add_one+0x134>
+      44: 00 30 90 e5                  	ldr	r3, [r0]
+      48: 0c 10 93 e5                  	ldr	r1, [r3, #12]
+      4c: 01 00 51 e3                  	cmp	r1, #1
+      50: 5f 00 00 1a                  	bne	#380 <add_one+0x1d4>
+      54: 10 10 d3 e5                  	ldrb	r1, [r3, #16]
+      58: 02 00 51 e3                  	cmp	r1, #2
+      5c: 11 10 d3 05                  	ldrbeq	r1, [r3, #17]
+      60: 20 00 51 03                  	cmpeq	r1, #32
+      64: 05 00 00 0a                  	beq	#20 <add_one+0x80>
+      68: 8c 02 9f e5                  	ldr	r0, [pc, #652]
+      6c: 00 00 9f e7                  	ldr	r0, [pc, r0]
+      70: 00 10 90 e5                  	ldr	r1, [r0]
+      74: 84 02 9f e5                  	ldr	r0, [pc, #644]
+      78: 00 00 8f e0                  	add	r0, pc, r0
+      7c: 31 00 00 ea                  	b	#196 <add_one+0x148>
+      80: b2 11 d3 e1                  	ldrh	r1, [r3, #18]
+      84: 01 00 51 e3                  	cmp	r1, #1
+      88: f6 ff ff 1a                  	bne	#-40 <add_one+0x68>
+      8c: 14 10 93 e5                  	ldr	r1, [r3, #20]
+      90: 00 10 91 e5                  	ldr	r1, [r1]
+      94: 01 0b 51 e3                  	cmp	r1, #1024
+      94: 01 0b 51 e3                  	cmp	r1, #1024
+      98: 53 00 00 1a                  	bne	#332 <add_one+0x1ec>
+      9c: 08 20 90 e5                  	ldr	r2, [r0, #8]
+      a0: 18 50 93 e5                  	ldr	r5, [r3, #24]
+      a4: 00 10 93 e5                  	ldr	r1, [r3]
+      a8: 00 00 55 e3                  	cmp	r5, #0
+      ac: 00 00 92 e5                  	ldr	r0, [r2]
+      b0: 00 50 95 15                  	ldrne	r5, [r5]
+      b4: 14 40 92 e5                  	ldr	r4, [r2, #20]
+      b8: 18 e0 92 e5                  	ldr	lr, [r2, #24]
+      bc: 01 00 55 13                  	cmpne	r5, #1
+      c0: 08 c0 93 e5                  	ldr	r12, [r3, #8]
+      c4: 4e 00 00 1a                  	bne	#312 <add_one+0x204>
+      c8: 20 50 93 e5                  	ldr	r5, [r3, #32]
+      cc: 24 60 93 e5                  	ldr	r6, [r3, #36]
+      d0: 06 50 95 e1                  	orrs	r5, r5, r6
+      d4: 50 00 00 1a                  	bne	#320 <add_one+0x21c>
+      d8: 04 30 93 e5                  	ldr	r3, [r3, #4]
+      dc: 01 00 53 e3                  	cmp	r3, #1
+      e0: 53 00 00 1a                  	bne	#332 <add_one+0x234>
+      e4: 0c 30 92 e5                  	ldr	r3, [r2, #12]
+      e8: 01 00 53 e3                  	cmp	r3, #1
+      ec: 56 00 00 1a                  	bne	#344 <add_one+0x24c>
+      f0: 10 30 d2 e5                  	ldrb	r3, [r2, #16]
+      f4: 02 00 53 e3                  	cmp	r3, #2
+      f8: 11 30 d2 05                  	ldrbeq	r3, [r2, #17]
+      fc: 20 00 53 03                  	cmpeq	r3, #32
+     100: 15 00 00 0a                  	beq	#84 <add_one+0x15c>
+     104: 18 02 9f e5                  	ldr	r0, [pc, #536]
+     108: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     10c: 00 10 90 e5                  	ldr	r1, [r0]
+     110: 10 02 9f e5                  	ldr	r0, [pc, #528]
+     114: 00 00 8f e0                  	add	r0, pc, r0
+     118: 0a 00 00 ea                  	b	#40 <add_one+0x148>
+     11c: c0 01 9f e5                  	ldr	r0, [pc, #448]
+     120: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     124: 00 10 90 e5                  	ldr	r1, [r0]
+     128: b8 01 9f e5                  	ldr	r0, [pc, #440]
+     12c: 00 00 8f e0                  	add	r0, pc, r0
+     130: 04 00 00 ea                  	b	#16 <add_one+0x148>
+     134: b0 01 9f e5                  	ldr	r0, [pc, #432]
+     138: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     13c: 00 10 90 e5                  	ldr	r1, [r0]
+     140: a8 01 9f e5                  	ldr	r0, [pc, #424]
+     144: 00 00 8f e0                  	add	r0, pc, r0
+     148: 0f e0 a0 e1                  	mov	lr, pc
+     14c: 01 f0 a0 e1                  	mov	pc, r1
+     150: 00 00 e0 e3                  	mvn	r0, #0
+     154: 70 40 bd e8                  	pop	{r4, r5, r6, lr}
+     158: 0e f0 a0 e1                  	mov	pc, lr
+     15c: b2 31 d2 e1                  	ldrh	r3, [r2, #18]
+     160: 01 00 53 e3                  	cmp	r3, #1
+     164: e6 ff ff 1a                  	bne	#-104 <add_one+0x104>
+     168: 00 30 94 e5                  	ldr	r3, [r4]
+     16c: 01 0b 53 e3                  	cmp	r3, #1024
+     170: 3b 00 00 1a                  	bne	#236 <add_one+0x264>
+     174: 00 00 5e e3                  	cmp	lr, #0
+     178: 00 30 9e 15                  	ldrne	r3, [lr]
+     17c: 01 00 53 13                  	cmpne	r3, #1
+     180: 3d 00 00 1a                  	bne	#244 <add_one+0x27c>
+     184: 20 30 92 e5                  	ldr	r3, [r2, #32]
+     188: 24 60 92 e5                  	ldr	r6, [r2, #36]
+     18c: 06 30 93 e1                  	orrs	r3, r3, r6
+     190: 3f 00 00 1a                  	bne	#252 <add_one+0x294>
+     194: 04 30 92 e5                  	ldr	r3, [r2, #4]
+     198: 01 00 53 e3                  	cmp	r3, #1
+     19c: 42 00 00 1a                  	bne	#264 <add_one+0x2ac>
+     1a0: 08 20 92 e5                  	ldr	r2, [r2, #8]
+     1a4: 02 00 5c e1                  	cmp	r12, r2
+     1a8: 45 00 00 1a                  	bne	#276 <add_one+0x2c4>
+     1ac: fe ff ff eb                  	bl	#-8 <add_one+0x1ac>
+     1b0: 00 00 a0 e3                  	mov	r0, #0
+     1b4: 70 40 bd e8                  	pop	{r4, r5, r6, lr}
+     1b8: 0e f0 a0 e1                  	mov	pc, lr
+     1bc: 18 01 9f e5                  	ldr	r0, [pc, #280]
+     1c0: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     1c4: 00 10 90 e5                  	ldr	r1, [r0]
+     1c8: 10 01 9f e5                  	ldr	r0, [pc, #272]
+     1cc: 00 00 8f e0                  	add	r0, pc, r0
+     1d0: dc ff ff ea                  	b	#-144 <add_one+0x148>
+     1d4: 18 01 9f e5                  	ldr	r0, [pc, #280]
+     1d8: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     1dc: 00 10 90 e5                  	ldr	r1, [r0]
+     1e0: 10 01 9f e5                  	ldr	r0, [pc, #272]
+     1e4: 00 00 8f e0                  	add	r0, pc, r0
+     1e8: d6 ff ff ea                  	b	#-168 <add_one+0x148>
+     1ec: 10 01 9f e5                  	ldr	r0, [pc, #272]
+     1f0: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     1f4: 00 10 90 e5                  	ldr	r1, [r0]
+     1f8: 08 01 9f e5                  	ldr	r0, [pc, #264]
+     1fc: 00 00 8f e0                  	add	r0, pc, r0
+     200: d0 ff ff ea                  	b	#-192 <add_one+0x148>
+     204: 40 01 9f e5                  	ldr	r0, [pc, #320]
+     208: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     20c: 00 10 90 e5                  	ldr	r1, [r0]
+     210: 38 01 9f e5                  	ldr	r0, [pc, #312]
+     214: 00 00 8f e0                  	add	r0, pc, r0
+     218: ca ff ff ea                  	b	#-216 <add_one+0x148>
+     21c: e8 00 9f e5                  	ldr	r0, [pc, #232]
+     220: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     224: 00 10 90 e5                  	ldr	r1, [r0]
+     228: e0 00 9f e5                  	ldr	r0, [pc, #224]
+     22c: 00 00 8f e0                  	add	r0, pc, r0
+     230: c4 ff ff ea                  	b	#-240 <add_one+0x148>
+     234: d8 00 9f e5                  	ldr	r0, [pc, #216]
+     238: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     23c: 00 10 90 e5                  	ldr	r1, [r0]
+     240: d0 00 9f e5                  	ldr	r0, [pc, #208]
+     244: 00 00 8f e0                  	add	r0, pc, r0
+     248: be ff ff ea                  	b	#-264 <add_one+0x148>
+     24c: c8 00 9f e5                  	ldr	r0, [pc, #200]
+     250: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     254: 00 10 90 e5                  	ldr	r1, [r0]
+     258: c0 00 9f e5                  	ldr	r0, [pc, #192]
+     25c: 00 00 8f e0                  	add	r0, pc, r0
+     260: b8 ff ff ea                  	b	#-288 <add_one+0x148>
+     264: c0 00 9f e5                  	ldr	r0, [pc, #192]
+     268: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     26c: 00 10 90 e5                  	ldr	r1, [r0]
+     270: b8 00 9f e5                  	ldr	r0, [pc, #184]
+     274: 00 00 8f e0                  	add	r0, pc, r0
+     278: b2 ff ff ea                  	b	#-312 <add_one+0x148>
+     27c: d0 00 9f e5                  	ldr	r0, [pc, #208]
+     280: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     284: 00 10 90 e5                  	ldr	r1, [r0]
+     288: c8 00 9f e5                  	ldr	r0, [pc, #200]
+     28c: 00 00 8f e0                  	add	r0, pc, r0
+     290: ac ff ff ea                  	b	#-336 <add_one+0x148>
+     294: 98 00 9f e5                  	ldr	r0, [pc, #152]
+     298: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     29c: 00 10 90 e5                  	ldr	r1, [r0]
+     2a0: 90 00 9f e5                  	ldr	r0, [pc, #144]
+     2a4: 00 00 8f e0                  	add	r0, pc, r0
+     2a8: a6 ff ff ea                  	b	#-360 <add_one+0x148>
+     2ac: 88 00 9f e5                  	ldr	r0, [pc, #136]
+     2b0: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     2b4: 00 10 90 e5                  	ldr	r1, [r0]
+     2b8: 80 00 9f e5                  	ldr	r0, [pc, #128]
+     2bc: 00 00 8f e0                  	add	r0, pc, r0
+     2c0: a0 ff ff ea                  	b	#-384 <add_one+0x148>
+     2c4: 78 00 9f e5                  	ldr	r0, [pc, #120]
+     2c8: 00 00 9f e7                  	ldr	r0, [pc, r0]
+     2cc: 00 10 90 e5                  	ldr	r1, [r0]
+     2d0: 70 00 9f e5                  	ldr	r0, [pc, #112]
+     2d4: 00 00 8f e0                  	add	r0, pc, r0
+     2d8: 9a ff ff ea                  	b	#-408 <add_one+0x148>
+
+000002dc $d.1:
+     2dc: 14 01 00 00                  	andeq	r0, r0, r4, lsl r1
+     2e0: 0c 01 00 00                  	andeq	r0, r0, r12, lsl #2
+     2e4: bc 01 00 00                  	strheq	r0, [r0], -r12
+     2e8: b4 01 00 00                  	strheq	r0, [r0], -r4
+     2ec: ac 01 00 00                  	andeq	r0, r0, r12, lsr #3
+     2f0: a4 01 00 00                  	andeq	r0, r0, r4, lsr #3
+     2f4: 14 01 00 00                  	andeq	r0, r0, r4, lsl r1
+     2f8: 0c 01 00 00                  	andeq	r0, r0, r12, lsl #2
+     2fc: 88 02 00 00                  	andeq	r0, r0, r8, lsl #5
+     300: 80 02 00 00                  	andeq	r0, r0, r0, lsl #5
+     304: 0c 01 00 00                  	andeq	r0, r0, r12, lsl #2
+     308: 04 01 00 00                  	andeq	r0, r0, r4, lsl #2
+     30c: e4 00 00 00                  	andeq	r0, r0, r4, ror #1
+     310: dc 00 00 00                  	ldrdeq	r0, r1, [r0], -r12
+     314: d4 00 00 00                  	ldrdeq	r0, r1, [r0], -r4
+     318: cc 00 00 00                  	andeq	r0, r0, r12, asr #1
+     31c: c4 00 00 00                  	andeq	r0, r0, r4, asr #1
+     320: bc 00 00 00                  	strheq	r0, [r0], -r12
+     324: 14 02 00 00                  	andeq	r0, r0, r4, lsl r2
+     328: 0c 02 00 00                  	andeq	r0, r0, r12, lsl #4
+     32c: bc 00 00 00                  	strheq	r0, [r0], -r12
+     330: b4 00 00 00                  	strheq	r0, [r0], -r4
+     334: 94 00 00 00                  	<unknown>
+     338: 8c 00 00 00                  	andeq	r0, r0, r12, lsl #1
+     33c: 84 00 00 00                  	andeq	r0, r0, r4, lsl #1
+     340: 7c 00 00 00                  	andeq	r0, r0, r12, ror r0
+     344: 74 00 00 00                  	andeq	r0, r0, r4, ror r0
+     348: 6c 00 00 00                  	andeq	r0, r0, r12, rrx
+     34c: 3c 01 00 00                  	andeq	r0, r0, r12, lsr r1
+     350: 34 01 00 00                  	andeq	r0, r0, r4, lsr r1
+     354: cc 00 00 00                  	andeq	r0, r0, r12, asr #1
+     358: c4 00 00 00                  	andeq	r0, r0, r4, asr #1
+
+0000035c .Ladd_one_compute_:
+     35c: 70 40 2d e9                  	push	{r4, r5, r6, lr}
+     360: 01 40 a0 e1                  	mov	r4, r1
+     364: 00 50 a0 e1                  	mov	r5, r0
+     368: 00 60 a0 e3                  	mov	r6, #0
+     36c: 06 00 94 e7                  	ldr	r0, [r4, r6]
+     370: fe 15 a0 e3                  	mov	r1, #1065353216
+     374: fe ff ff eb                  	bl	#-8 <.Ladd_one_compute_+0x18>
+     378: 06 00 85 e7                  	str	r0, [r5, r6]
+     37c: 04 60 86 e2                  	add	r6, r6, #4
+     380: 01 0a 56 e3                  	cmp	r6, #4096
+     384: f8 ff ff 1a                  	bne	#-32 <.Ladd_one_compute_+0x10>
+     388: 70 40 bd e8                  	pop	{r4, r5, r6, lr}
+     38c: 0e f0 a0 e1                  	mov	pc, lr
+
+Disassembly of section .rel.text:
+
+00000000 .rel.text:
+       0: ac 01 00 00                  	andeq	r0, r0, r12, lsr #3
+       4: 1c 18 00 00                  	andeq	r1, r0, r12, lsl r8
+       8: dc 02 00 00                  	ldrdeq	r0, r1, [r0], -r12
+       c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      10: e0 02 00 00                  	andeq	r0, r0, r0, ror #5
+      14: 03 08 00 00                  	andeq	r0, r0, r3, lsl #16
+      18: e4 02 00 00                  	andeq	r0, r0, r4, ror #5
+      1c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      20: e8 02 00 00                  	andeq	r0, r0, r8, ror #5
+      24: 03 09 00 00                  	andeq	r0, r0, r3, lsl #18
+      28: ec 02 00 00                  	andeq	r0, r0, r12, ror #5
+      2c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      30: f0 02 00 00                  	strdeq	r0, r1, [r0], -r0
+      34: 03 10 00 00                  	andeq	r1, r0, r3
+      38: f4 02 00 00                  	strdeq	r0, r1, [r0], -r4
+      3c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      40: f8 02 00 00                  	strdeq	r0, r1, [r0], -r8
+      44: 03 11 00 00                  	andeq	r1, r0, r3, lsl #2
+      48: fc 02 00 00                  	strdeq	r0, r1, [r0], -r12
+      4c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      50: 00 03 00 00                  	andeq	r0, r0, r0, lsl #6
+      54: 03 12 00 00                  	andeq	r1, r0, r3, lsl #4
+      58: 04 03 00 00                  	andeq	r0, r0, r4, lsl #6
+      5c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      60: 08 03 00 00                  	andeq	r0, r0, r8, lsl #6
+      64: 03 13 00 00                  	andeq	r1, r0, r3, lsl #6
+      68: 0c 03 00 00                  	andeq	r0, r0, r12, lsl #6
+      6c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      70: 10 03 00 00                  	andeq	r0, r0, r0, lsl r3
+      74: 03 15 00 00                  	andeq	r1, r0, r3, lsl #10
+      78: 14 03 00 00                  	andeq	r0, r0, r4, lsl r3
+      7c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      80: 18 03 00 00                  	andeq	r0, r0, r8, lsl r3
+      84: 03 16 00 00                  	andeq	r1, r0, r3, lsl #12
+      88: 1c 03 00 00                  	andeq	r0, r0, r12, lsl r3
+      8c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      90: 20 03 00 00                  	andeq	r0, r0, r0, lsr #6
+      94: 03 17 00 00                  	andeq	r1, r0, r3, lsl #14
+      98: 24 03 00 00                  	andeq	r0, r0, r4, lsr #6
+      9c: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      a0: 28 03 00 00                  	andeq	r0, r0, r8, lsr #6
+      a4: 03 0a 00 00                  	andeq	r0, r0, r3, lsl #20
+      a8: 2c 03 00 00                  	andeq	r0, r0, r12, lsr #6
+      ac: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      b0: 30 03 00 00                  	andeq	r0, r0, r0, lsr r3
+      b4: 03 0b 00 00                  	andeq	r0, r0, r3, lsl #22
+      b8: 34 03 00 00                  	andeq	r0, r0, r4, lsr r3
+      bc: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      c0: 38 03 00 00                  	andeq	r0, r0, r8, lsr r3
+      c4: 03 0d 00 00                  	andeq	r0, r0, r3, lsl #26
+      c8: 3c 03 00 00                  	andeq	r0, r0, r12, lsr r3
+      cc: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      d0: 40 03 00 00                  	andeq	r0, r0, r0, asr #6
+      d4: 03 0e 00 00                  	andeq	r0, r0, r3, lsl #28
+      d8: 44 03 00 00                  	andeq	r0, r0, r4, asr #6
+      dc: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      e0: 48 03 00 00                  	andeq	r0, r0, r8, asr #6
+      e4: 03 0f 00 00                  	andeq	r0, r0, r3, lsl #30
+      e8: 4c 03 00 00                  	andeq	r0, r0, r12, asr #6
+      ec: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+      f0: 50 03 00 00                  	andeq	r0, r0, r0, asr r3
+      f4: 03 14 00 00                  	andeq	r1, r0, r3, lsl #8
+      f8: 54 03 00 00                  	andeq	r0, r0, r4, asr r3
+      fc: 60 1e 00 00                  	andeq	r1, r0, r0, ror #28
+     100: 58 03 00 00                  	andeq	r0, r0, r8, asr r3
+     104: 03 0c 00 00                  	andeq	r0, r0, r3, lsl #24
+     108: 74 03 00 00                  	andeq	r0, r0, r4, ror r3
+     10c: 1c 1f 00 00                  	andeq	r1, r0, r12, lsl pc
+
+Disassembly of section .ARM.exidx:
+
+00000000 .ARM.exidx:
+       0: 00 00 00 00                  	andeq	r0, r0, r0
+       4: b0 b0 b0 80                  	ldrhthi	r11, [r0], r0
+       8: 5c 03 00 00                  	andeq	r0, r0, r12, asr r3
+       c: 01 00 00 00                  	andeq	r0, r0, r1
+
+Disassembly of section .rel.ARM.exidx:
+
+00000000 .rel.ARM.exidx:
+       0: 00 00 00 00                  	andeq	r0, r0, r0
+       4: 00 20 00 00                  	andeq	r2, r0, r0
+       8: 00 00 00 00                  	andeq	r0, r0, r0
+       c: 2a 19 00 00                  	andeq	r1, r0, r10, lsr #18
+      10: 08 00 00 00                  	andeq	r0, r0, r8
+      14: 2a 19 00 00                  	andeq	r1, r0, r10, lsr #18
+
+Disassembly of section .bss:
+
+00000000 __TVMAPISetLastError:
+...
+
+Disassembly of section .rodata:
+
+00000000 .L.str:
+       0: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+       4: 72 74 20 66                  	qsub16vs	r7, r0, r2
+       8: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b19d57>
+       c: 20 28 6e 75                  	strbvc	r2, [lr, #-2080]!
+      10: 6d 5f 61 72                  	rsbvc	r5, r1, #436
+      14: 67 73 20 3d                  	stclo	p3, c7, [r0, #-412]!
+      18: 3d 20 32 29                  	ldmdbhs	r2!, {r0, r2, r3, r4, r5, sp}
+      1c: 2c 20 61 64                  	strbtvs	r2, [r1], #-44
+      20: 64 5f 6f 6e                  	cdpvs	p15, #6, c5, c15, c4, #3
+      24: 65 3a 20 6e                  	<unknown>
+      28: 75 6d 5f 61                  	cmpvs	pc, r5, ror sp
+      2c: 72 67 73 20                  	rsbshs	r6, r3, r2, ror r7
+      30: 73 68 6f 75                  	strbvc	r6, [pc, #-2163]!
+      34: 6c 64 20 62                  	eorvs	r6, r0, #108, #8
+      38: 65 20 32 00                  	eorseq	r2, r2, r5, rrx
+
+0000003c .L.str.1:
+      3c: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+      40: 72 74 20 66                  	qsub16vs	r7, r0, r2
+      44: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b19d93>
+      48: 20 28 28 28                  	stmdahs	r8!, {r5, r11, sp}
+      4c: 28 61 72 67                  	ldrbvs	r6, [r2, -r8, lsr #2]!
+      50: 30 2e 63 6f                  	svcvs	#6499888
+      54: 64 65 20 3d                  	stclo	p5, c6, [r0, #-400]!
+      58: 3d 20 33 29                  	ldmdbhs	r3!, {r0, r2, r3, r4, r5, sp}
+      5c: 20 7c 7c 20                  	rsbshs	r7, r12, r0, lsr #24
+      60: 28 61 72 67                  	ldrbvs	r6, [r2, -r8, lsr #2]!
+      64: 30 2e 63 6f                  	svcvs	#6499888
+      68: 64 65 20 3d                  	stclo	p5, c6, [r0, #-400]!
+      6c: 3d 20 31 33                  	teqlo	r1, #61
+      70: 29 29 20 7c                  	stcvc	p9, c2, [r0], #-164
+      74: 7c 20 28 61                  	<unknown>
+      78: 72 67 30 2e                  	mrchs	p7, #1, r6, c0, c2, #3
+      7c: 63 6f 64 65                  	strbvs	r6, [r4, #-3939]!
+      80: 20 3d 3d 20                  	eorshs	r3, sp, r0, lsr #26
+      84: 37 29 29 20                  	eorhs	r2, r9, r7, lsr r9
+      88: 7c 7c 20 28                  	stmdahs	r0!, {r2, r3, r4, r5, r6, r10, r11, r12, sp, lr}
+      8c: 61 72 67 30                  	rsblo	r7, r7, r1, ror #4
+      90: 2e 63 6f 64                  	strbtvs	r6, [pc], #-814
+      94: 65 20 3d 3d                  	ldclo	p0, c2, [sp, #-404]!
+      98: 20 34 29 29                  	stmdbhs	r9!, {r5, r10, r12, sp}
+      9c: 2c 20 61 64                  	strbtvs	r2, [r1], #-44
+      a0: 64 5f 6f 6e                  	cdpvs	p15, #6, c5, c15, c4, #3
+      a4: 65 3a 20 45                  	strmi	r3, [r0, #-2661]!
+      a8: 78 70 65 63                  	<unknown>
+      ac: 74 20 61 72                  	rsbvc	r2, r1, #116
+      b0: 67 5b 30 5d                  	<unknown>
+      b4: 20 74 6f 20                  	rsbhs	r7, pc, r0, lsr #8
+      b8: 62 65 20 70                  	eorvc	r6, r0, r2, ror #10
+      bc: 6f 69 6e 74                  	strbtvc	r6, [lr], #-2415
+      c0: 65 72 00 41                  	<unknown>
+
+000000c3 .L.str.2:
+      c3: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+      c7: 72 74 20 66                  	qsub16vs	r7, r0, r2
+      cb: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b19e1a>
+      cf: 20 28 28 28                  	stmdahs	r8!, {r5, r11, sp}
+      d3: 28 61 72 67                  	ldrbvs	r6, [r2, -r8, lsr #2]!
+      d7: 31 2e 63 6f                  	svcvs	#6499889
+      db: 64 65 20 3d                  	stclo	p5, c6, [r0, #-400]!
+      df: 3d 20 33 29                  	ldmdbhs	r3!, {r0, r2, r3, r4, r5, sp}
+      e3: 20 7c 7c 20                  	rsbshs	r7, r12, r0, lsr #24
+      e7: 28 61 72 67                  	ldrbvs	r6, [r2, -r8, lsr #2]!
+      eb: 31 2e 63 6f                  	svcvs	#6499889
+      ef: 64 65 20 3d                  	stclo	p5, c6, [r0, #-400]!
+      f3: 3d 20 31 33                  	teqlo	r1, #61
+      f7: 29 29 20 7c                  	stcvc	p9, c2, [r0], #-164
+      fb: 7c 20 28 61                  	<unknown>
+      ff: 72 67 31 2e                  	mrchs	p7, #1, r6, c1, c2, #3
+     103: 63 6f 64 65                  	strbvs	r6, [r4, #-3939]!
+     107: 20 3d 3d 20                  	eorshs	r3, sp, r0, lsr #26
+     10b: 37 29 29 20                  	eorhs	r2, r9, r7, lsr r9
+     10f: 7c 7c 20 28                  	stmdahs	r0!, {r2, r3, r4, r5, r6, r10, r11, r12, sp, lr}
+     113: 61 72 67 31                  	<unknown>
+     117: 2e 63 6f 64                  	strbtvs	r6, [pc], #-814
+     11b: 65 20 3d 3d                  	ldclo	p0, c2, [sp, #-404]!
+     11f: 20 34 29 29                  	stmdbhs	r9!, {r5, r10, r12, sp}
+     123: 2c 20 61 64                  	strbtvs	r2, [r1], #-44
+     127: 64 5f 6f 6e                  	cdpvs	p15, #6, c5, c15, c4, #3
+     12b: 65 3a 20 45                  	strmi	r3, [r0, #-2661]!
+     12f: 78 70 65 63                  	<unknown>
+     133: 74 20 61 72                  	rsbvc	r2, r1, #116
+     137: 67 5b 31 5d                  	<unknown>
+     13b: 20 74 6f 20                  	rsbhs	r7, pc, r0, lsr #8
+     13f: 62 65 20 70                  	eorvc	r6, r0, r2, ror #10
+     143: 6f 69 6e 74                  	strbtvc	r6, [lr], #-2415
+     147: 65 72 00 41                  	<unknown>
+
+0000014a .L.str.3:
+     14a: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     14e: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     152: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b19ea1>
+     156: 20 28 31 20                  	eorshs	r2, r1, r0, lsr #16
+     15a: 3d 3d 20 74                  	strtvc	r3, [r0], #-3389
+     15e: 69 72 2e 74                  	strtvc	r7, [lr], #-617
+     162: 76 6d 5f 73                  	cmpvc	pc, #7552
+     166: 74 72 75 63                  	cmnvs	r5, #116, #4
+     16a: 74 5f 67 65                  	strbvs	r5, [r7, #-3956]!
+     16e: 74 28 61 72                  	rsbvc	r2, r1, #116, #16
+     172: 67 30 2c 20                  	eorhs	r3, r12, r7, rrx
+     176: 30 2c 20 34                  	strtlo	r2, [r0], #-3120
+     17a: 29 29 2c 20                  	eorhs	r2, r12, r9, lsr #18
+     17e: 61 72 67 30                  	rsblo	r7, r7, r1, ror #4
+     182: 2e 6e 64 69                  	stmdbvs	r4!, {r1, r2, r3, r5, r9, r10, r11, sp, lr} ^
+     186: 6d 20 69 73                  	<unknown>
+     18a: 20 65 78 70                  	rsbsvc	r6, r8, r0, lsr #10
+     18e: 65 63 74 65                  	ldrbvs	r6, [r4, #-869]!
+     192: 64 20 74 6f                  	svcvs	#7610468
+     196: 20 65 71 75                  	ldrbvc	r6, [r1, #-1312]!
+     19a: 61 6c 20 31                  	<unknown>
+     19e: 00 41 73 73                  	cmnvc	r3, #0, #2
+
+0000019f .L.str.4:
+     19f: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     1a3: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     1a7: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b19ef6>
+     1ab: 20 28 28 28                  	stmdahs	r8!, {r5, r11, sp}
+     1af: 74 69 72 2e                  	mrchs	p9, #3, r6, c2, c4, #3
+     1b3: 74 76 6d 5f                  	svcpl	#7173748
+     1b7: 73 74 72 75                  	ldrbvc	r7, [r2, #-1139]!
+     1bb: 63 74 5f 67                  	ldrbvs	r7, [pc, -r3, ror #8]
+     1bf: 65 74 28 61                  	<unknown>
+     1c3: 72 67 30 2c                  	ldchs	p7, c6, [r0], #-456
+     1c7: 20 30 2c 20                  	eorhs	r3, r12, r0, lsr #32
+     1cb: 35 29 20 3d                  	stclo	p9, c2, [r0, #-212]!
+     1cf: 3d 20 28 75                  	strvc	r2, [r8, #-61]!
+     1d3: 69 6e 74 38                  	ldmdalo	r4!, {r0, r3, r5, r6, r9, r10, r11, sp, lr} ^
+     1d7: 29 32 29 20                  	eorhs	r3, r9, r9, lsr #4
+     1db: 26 26 20 28                  	stmdahs	r0!, {r1, r2, r5, r9, r10, sp}
+     1df: 74 69 72 2e                  	mrchs	p9, #3, r6, c2, c4, #3
+     1e3: 74 76 6d 5f                  	svcpl	#7173748
+     1e7: 73 74 72 75                  	ldrbvc	r7, [r2, #-1139]!
+     1eb: 63 74 5f 67                  	ldrbvs	r7, [pc, -r3, ror #8]
+     1ef: 65 74 28 61                  	<unknown>
+     1f3: 72 67 30 2c                  	ldchs	p7, c6, [r0], #-456
+     1f7: 20 30 2c 20                  	eorhs	r3, r12, r0, lsr #32
+     1fb: 36 29 20 3d                  	stclo	p9, c2, [r0, #-216]!
+     1ff: 3d 20 28 75                  	strvc	r2, [r8, #-61]!
+     203: 69 6e 74 38                  	ldmdalo	r4!, {r0, r3, r5, r6, r9, r10, r11, sp, lr} ^
+     207: 29 33 32 29                  	ldmdbhs	r2!, {r0, r3, r5, r8, r9, r12, sp}
+     20b: 29 20 26 26                  	strths	r2, [r6], -r9, lsr #32
+     20f: 20 28 74 69                  	ldmdbvs	r4!, {r5, r11, sp} ^
+     213: 72 2e 74 76                  	uhsub16vc	r2, r4, r2
+     217: 6d 5f 73 74                  	ldrbtvc	r5, [r3], #-3949
+     21b: 72 75 63 74                  	strbtvc	r7, [r3], #-1394
+     21f: 5f 67 65 74                  	strbtvc	r6, [r5], #-1887
+     223: 28 61 72 67                  	ldrbvs	r6, [r2, -r8, lsr #2]!
+     227: 30 2c 20 30                  	eorlo	r2, r0, r0, lsr r12
+     22b: 2c 20 37 29                  	ldmdbhs	r7!, {r2, r3, r5, sp}
+     22f: 20 3d 3d 20                  	eorshs	r3, sp, r0, lsr #26
+     233: 28 75 69 6e                  	cdpvs	p5, #6, c7, c9, c8, #1
+     237: 74 31 36 29                  	ldmdbhs	r6!, {r2, r4, r5, r6, r8, r12, sp}
+     23b: 31 29 29 2c                  	stchs	p9, c2, [r9], #-196
+     23f: 20 61 72 67                  	ldrbvs	r6, [r2, -r0, lsr #2]!
+     243: 30 2e 64 74                  	strbtvc	r2, [r4], #-3632
+     247: 79 70 65 20                  	rsbhs	r7, r5, r9, ror r0
+     24b: 69 73 20 65                  	strvs	r7, [r0, #-873]!
+     24f: 78 70 65 63                  	<unknown>
+     253: 74 65 64 20                  	rsbhs	r6, r4, r4, ror r5
+     257: 74 6f 20 62                  	eorvs	r6, r0, #116, #30
+     25b: 65 20 66 6c                  	stclvs	p0, c2, [r6], #-404
+     25f: 6f 61 74 33                  	cmnlo	r4, #-1073741797
+     263: 32 00 41 73                  	<unknown>
+
+00000265 .L.str.5:
+     265: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     269: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     26d: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b19fbc>
+     271: 20 28 31 30                  	eorslo	r2, r1, r0, lsr #16
+     275: 32 34 20 3d                  	stclo	p4, c3, [r0, #-200]!
+     279: 3d 20 69 6e                  	mcrvs	p0, #3, r2, c9, c13, #1
+     27d: 74 33 32 28                  	ldmdahs	r2!, {r2, r4, r5, r6, r8, r9, r12, sp}
+     281: 61 72 67 30                  	rsblo	r7, r7, r1, ror #4
+     285: 2e 73 68 61                  	<unknown>
+     289: 70 65 5b 30                  	subslo	r6, r11, r0, ror r5
+     28d: 5d 29 29 2c                  	stchs	p9, c2, [r9], #-372
+     291: 20 41 72 67                  	ldrbvs	r4, [r2, -r0, lsr #2]!
+     295: 75 6d 65 6e                  	mcrvs	p13, #3, r6, c5, c5, #3
+     299: 74 20 61 72                  	rsbvc	r2, r1, #116
+     29d: 67 30 2e 73                  	<unknown>
+     2a1: 68 61 70 65                  	ldrbvs	r6, [r0, #-360]!
+     2a5: 5b 30 5d 20                  	subshs	r3, sp, r11, asr r0
+     2a9: 68 61 73 20                  	rsbshs	r6, r3, r8, ror #2
+     2ad: 61 6e 20 75                  	strvc	r6, [r0, #-3681]!
+     2b1: 6e 73 61 74                  	strbtvc	r7, [r1], #-878
+     2b5: 69 73 66 69                  	stmdbvs	r6!, {r0, r3, r5, r6, r8, r9, r12, sp, lr} ^
+     2b9: 65 64 20 63                  	<unknown>
+     2bd: 6f 6e 73 74                  	ldrbtvc	r6, [r3], #-3695
+     2c1: 72 61 69 6e                  	mcrvs	p1, #3, r6, c9, c2, #3
+     2c5: 74 3a 20 28                  	stmdahs	r0!, {r2, r4, r5, r6, r9, r11, r12, sp}
+     2c9: 31 30 32 34                  	ldrtlo	r3, [r2], #-49
+     2cd: 20 3d 3d 20                  	eorshs	r3, sp, r0, lsr #26
+     2d1: 69 6e 74 33                  	cmnlo	r4, #1680
+     2d5: 32 28 61 72                  	rsbvc	r2, r1, #3276800
+     2d9: 67 30 2e 73                  	<unknown>
+     2dd: 68 61 70 65                  	ldrbvs	r6, [r0, #-360]!
+     2e1: 5b 30 5d 29                  	ldmdbhs	sp, {r0, r1, r3, r4, r6, r12, sp} ^
+     2e5: 29 00 41 73                  	<unknown>
+
+000002e7 .L.str.6:
+     2e7: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     2eb: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     2ef: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a03e>
+     2f3: 20 28 31 20                  	eorshs	r2, r1, r0, lsr #16
+     2f7: 3d 3d 20 69                  	stmdbvs	r0!, {r0, r2, r3, r4, r5, r8, r10, r11, r12, sp}
+     2fb: 6e 74 33 32                  	eorslo	r7, r3, #1845493760
+     2ff: 28 61 72 67                  	ldrbvs	r6, [r2, -r8, lsr #2]!
+     303: 30 2e 73 74                  	ldrbtvc	r2, [r3], #-3632
+     307: 72 69 64 65                  	strbvs	r6, [r4, #-2418]!
+     30b: 73 5b 30 5d                  	<unknown>
+     30f: 29 29 2c 20                  	eorhs	r2, r12, r9, lsr #18
+     313: 61 72 67 30                  	rsblo	r7, r7, r1, ror #4
+     317: 2e 73 74 72                  	rsbsvc	r7, r4, #-1207959552
+     31b: 69 64 65 73                  	<unknown>
+     31f: 3a 20 65 78                  	stmdavc	r5!, {r1, r3, r4, r5, sp} ^
+     323: 70 65 63 74                  	strbtvc	r6, [r3], #-1392
+     327: 65 64 20 74                  	strtvc	r6, [r0], #-1125
+     32b: 6f 20 62 65                  	strbvs	r2, [r2, #-111]!
+     32f: 20 63 6f 6d                  	stclvs	p3, c6, [pc, #-128]!
+     333: 70 61 63 74                  	strbtvc	r6, [r3], #-368
+     337: 20 61 72 72                  	rsbsvc	r6, r2, #32, #2
+     33b: 61 79 00 41                  	<unknown>
+
+0000033e .L.str.7:
+     33e: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     342: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     346: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a095>
+     34a: 20 28 28 75                  	strvc	r2, [r8, #-2080]!
+     34e: 69 6e 74 36                  	ldrbtlo	r6, [r4], -r9, ror #28
+     352: 34 29 30 20                  	eorshs	r2, r0, r4, lsr r9
+     356: 3d 3d 20 74                  	strtvc	r3, [r0], #-3389
+     35a: 69 72 2e 74                  	strtvc	r7, [lr], #-617
+     35e: 76 6d 5f 73                  	cmpvc	pc, #7552
+     362: 74 72 75 63                  	cmnvs	r5, #116, #4
+     366: 74 5f 67 65                  	strbvs	r5, [r7, #-3956]!
+     36a: 74 28 61 72                  	rsbvc	r2, r1, #116, #16
+     36e: 67 30 2c 20                  	eorhs	r3, r12, r7, rrx
+     372: 30 2c 20 38                  	stmdalo	r0!, {r4, r5, r10, r11, sp}
+     376: 29 29 2c 20                  	eorhs	r2, r12, r9, lsr #18
+     37a: 41 72 67 75                  	strbvc	r7, [r7, #-577]!
+     37e: 6d 65 6e 74                  	strbtvc	r6, [lr], #-1389
+     382: 20 61 72 67                  	ldrbvs	r6, [r2, -r0, lsr #2]!
+     386: 30 2e 62 79                  	stmdbvc	r2!, {r4, r5, r9, r10, r11, sp} ^
+     38a: 74 65 5f 6f                  	svcvs	#6251892
+     38e: 66 66 73 65                  	ldrbvs	r6, [r3, #-1638]!
+     392: 74 20 68 61                  	<unknown>
+     396: 73 20 61 6e                  	mcrvs	p0, #3, r2, c1, c3, #3
+     39a: 20 75 6e 73                  	<unknown>
+     39e: 61 74 69 73                  	<unknown>
+     3a2: 66 69 65 64                  	strbtvs	r6, [r5], #-2406
+     3a6: 20 63 6f 6e                  	cdpvs	p3, #6, c6, c15, c0, #1
+     3aa: 73 74 72 61                  	cmnvs	r2, r3, ror r4
+     3ae: 69 6e 74 3a                  	blo	#30521764 <__tvm_main__+0x1d1b51d>
+     3b2: 20 28 28 75                  	strvc	r2, [r8, #-2080]!
+     3b6: 69 6e 74 36                  	ldrbtlo	r6, [r4], -r9, ror #28
+     3ba: 34 29 30 20                  	eorshs	r2, r0, r4, lsr r9
+     3be: 3d 3d 20 74                  	strtvc	r3, [r0], #-3389
+     3c2: 69 72 2e 74                  	strtvc	r7, [lr], #-617
+     3c6: 76 6d 5f 73                  	cmpvc	pc, #7552
+     3ca: 74 72 75 63                  	cmnvs	r5, #116, #4
+     3ce: 74 5f 67 65                  	strbvs	r5, [r7, #-3956]!
+     3d2: 74 28 61 72                  	rsbvc	r2, r1, #116, #16
+     3d6: 67 30 2c 20                  	eorhs	r3, r12, r7, rrx
+     3da: 30 2c 20 38                  	stmdalo	r0!, {r4, r5, r10, r11, sp}
+     3de: 29 29 00 41                  	<unknown>
+
+000003e1 .L.str.8:
+     3e1: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     3e5: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     3e9: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a138>
+     3ed: 20 28 31 20                  	eorshs	r2, r1, r0, lsr #16
+     3f1: 3d 3d 20 74                  	strtvc	r3, [r0], #-3389
+     3f5: 69 72 2e 74                  	strtvc	r7, [lr], #-617
+     3f9: 76 6d 5f 73                  	cmpvc	pc, #7552
+     3fd: 74 72 75 63                  	cmnvs	r5, #116, #4
+     401: 74 5f 67 65                  	strbvs	r5, [r7, #-3956]!
+     405: 74 28 61 72                  	rsbvc	r2, r1, #116, #16
+     409: 67 30 2c 20                  	eorhs	r3, r12, r7, rrx
+     40d: 30 2c 20 31                  	<unknown>
+     411: 30 29 29 2c                  	stchs	p9, c2, [r9], #-192
+     415: 20 41 72 67                  	ldrbvs	r4, [r2, -r0, lsr #2]!
+     419: 75 6d 65 6e                  	mcrvs	p13, #3, r6, c5, c5, #3
+     41d: 74 20 61 72                  	rsbvc	r2, r1, #116
+     421: 67 30 2e 64                  	strtvs	r3, [lr], #-103
+     425: 65 76 69 63                  	<unknown>
+     429: 65 5f 74 79                  	ldmdbvc	r4!, {r0, r2, r5, r6, r8, r9, r10, r11, r12, lr} ^
+     42d: 70 65 20 68                  	stmdavs	r0!, {r4, r5, r6, r8, r10, sp, lr}
+     431: 61 73 20 61                  	<unknown>
+     435: 6e 20 75 6e                  	cdpvs	p0, #7, c2, c5, c14, #3
+     439: 73 61 74 69                  	ldmdbvs	r4!, {r0, r1, r4, r5, r6, r8, sp, lr} ^
+     43d: 73 66 69 65                  	strbvs	r6, [r9, #-1651]!
+     441: 64 20 63 6f                  	svcvs	#6496356
+     445: 6e 73 74 72                  	rsbsvc	r7, r4, #-1207959551
+     449: 61 69 6e 74                  	strbtvc	r6, [lr], #-2401
+     44d: 3a 20 28 31                  	<unknown>
+     451: 20 3d 3d 20                  	eorshs	r3, sp, r0, lsr #26
+     455: 74 69 72 2e                  	mrchs	p9, #3, r6, c2, c4, #3
+     459: 74 76 6d 5f                  	svcpl	#7173748
+     45d: 73 74 72 75                  	ldrbvc	r7, [r2, #-1139]!
+     461: 63 74 5f 67                  	ldrbvs	r7, [pc, -r3, ror #8]
+     465: 65 74 28 61                  	<unknown>
+     469: 72 67 30 2c                  	ldchs	p7, c6, [r0], #-456
+     46d: 20 30 2c 20                  	eorhs	r3, r12, r0, lsr #32
+     471: 31 30 29 29                  	stmdbhs	r9!, {r0, r4, r5, r12, sp}
+     475: 00 41 73 73                  	cmnvc	r3, #0, #2
+
+00000476 .L.str.9:
+     476: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     47a: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     47e: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a1cd>
+     482: 20 28 31 20                  	eorshs	r2, r1, r0, lsr #16
+     486: 3d 3d 20 74                  	strtvc	r3, [r0], #-3389
+     48a: 69 72 2e 74                  	strtvc	r7, [lr], #-617
+     48e: 76 6d 5f 73                  	cmpvc	pc, #7552
+     492: 74 72 75 63                  	cmnvs	r5, #116, #4
+     496: 74 5f 67 65                  	strbvs	r5, [r7, #-3956]!
+     49a: 74 28 61 72                  	rsbvc	r2, r1, #116, #16
+     49e: 67 31 2c 20                  	eorhs	r3, r12, r7, ror #2
+     4a2: 30 2c 20 34                  	strtlo	r2, [r0], #-3120
+     4a6: 29 29 2c 20                  	eorhs	r2, r12, r9, lsr #18
+     4aa: 61 72 67 31                  	<unknown>
+     4ae: 2e 6e 64 69                  	stmdbvs	r4!, {r1, r2, r3, r5, r9, r10, r11, sp, lr} ^
+     4b2: 6d 20 69 73                  	<unknown>
+     4b6: 20 65 78 70                  	rsbsvc	r6, r8, r0, lsr #10
+     4ba: 65 63 74 65                  	ldrbvs	r6, [r4, #-869]!
+     4be: 64 20 74 6f                  	svcvs	#7610468
+     4c2: 20 65 71 75                  	ldrbvc	r6, [r1, #-1312]!
+     4c6: 61 6c 20 31                  	<unknown>
+     4ca: 00 41 73 73                  	cmnvc	r3, #0, #2
+
+000004cb .L.str.10:
+     4cb: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     4cf: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     4d3: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a222>
+     4d7: 20 28 28 28                  	stmdahs	r8!, {r5, r11, sp}
+     4db: 74 69 72 2e                  	mrchs	p9, #3, r6, c2, c4, #3
+     4df: 74 76 6d 5f                  	svcpl	#7173748
+     4e3: 73 74 72 75                  	ldrbvc	r7, [r2, #-1139]!
+     4e7: 63 74 5f 67                  	ldrbvs	r7, [pc, -r3, ror #8]
+     4eb: 65 74 28 61                  	<unknown>
+     4ef: 72 67 31 2c                  	ldchs	p7, c6, [r1], #-456
+     4f3: 20 30 2c 20                  	eorhs	r3, r12, r0, lsr #32
+     4f7: 35 29 20 3d                  	stclo	p9, c2, [r0, #-212]!
+     4fb: 3d 20 28 75                  	strvc	r2, [r8, #-61]!
+     4ff: 69 6e 74 38                  	ldmdalo	r4!, {r0, r3, r5, r6, r9, r10, r11, sp, lr} ^
+     503: 29 32 29 20                  	eorhs	r3, r9, r9, lsr #4
+     507: 26 26 20 28                  	stmdahs	r0!, {r1, r2, r5, r9, r10, sp}
+     50b: 74 69 72 2e                  	mrchs	p9, #3, r6, c2, c4, #3
+     50f: 74 76 6d 5f                  	svcpl	#7173748
+     513: 73 74 72 75                  	ldrbvc	r7, [r2, #-1139]!
+     517: 63 74 5f 67                  	ldrbvs	r7, [pc, -r3, ror #8]
+     51b: 65 74 28 61                  	<unknown>
+     51f: 72 67 31 2c                  	ldchs	p7, c6, [r1], #-456
+     523: 20 30 2c 20                  	eorhs	r3, r12, r0, lsr #32
+     527: 36 29 20 3d                  	stclo	p9, c2, [r0, #-216]!
+     52b: 3d 20 28 75                  	strvc	r2, [r8, #-61]!
+     52f: 69 6e 74 38                  	ldmdalo	r4!, {r0, r3, r5, r6, r9, r10, r11, sp, lr} ^
+     533: 29 33 32 29                  	ldmdbhs	r2!, {r0, r3, r5, r8, r9, r12, sp}
+     537: 29 20 26 26                  	strths	r2, [r6], -r9, lsr #32
+     53b: 20 28 74 69                  	ldmdbvs	r4!, {r5, r11, sp} ^
+     53f: 72 2e 74 76                  	uhsub16vc	r2, r4, r2
+     543: 6d 5f 73 74                  	ldrbtvc	r5, [r3], #-3949
+     547: 72 75 63 74                  	strbtvc	r7, [r3], #-1394
+     54b: 5f 67 65 74                  	strbtvc	r6, [r5], #-1887
+     54f: 28 61 72 67                  	ldrbvs	r6, [r2, -r8, lsr #2]!
+     553: 31 2c 20 30                  	eorlo	r2, r0, r1, lsr r12
+     557: 2c 20 37 29                  	ldmdbhs	r7!, {r2, r3, r5, sp}
+     55b: 20 3d 3d 20                  	eorshs	r3, sp, r0, lsr #26
+     55f: 28 75 69 6e                  	cdpvs	p5, #6, c7, c9, c8, #1
+     563: 74 31 36 29                  	ldmdbhs	r6!, {r2, r4, r5, r6, r8, r12, sp}
+     567: 31 29 29 2c                  	stchs	p9, c2, [r9], #-196
+     56b: 20 61 72 67                  	ldrbvs	r6, [r2, -r0, lsr #2]!
+     56f: 31 2e 64 74                  	strbtvc	r2, [r4], #-3633
+     573: 79 70 65 20                  	rsbhs	r7, r5, r9, ror r0
+     577: 69 73 20 65                  	strvs	r7, [r0, #-873]!
+     57b: 78 70 65 63                  	<unknown>
+     57f: 74 65 64 20                  	rsbhs	r6, r4, r4, ror r5
+     583: 74 6f 20 62                  	eorvs	r6, r0, #116, #30
+     587: 65 20 66 6c                  	stclvs	p0, c2, [r6], #-404
+     58b: 6f 61 74 33                  	cmnlo	r4, #-1073741797
+     58f: 32 00 41 73                  	<unknown>
+
+00000591 .L.str.11:
+     591: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     595: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     599: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a2e8>
+     59d: 20 28 31 30                  	eorslo	r2, r1, r0, lsr #16
+     5a1: 32 34 20 3d                  	stclo	p4, c3, [r0, #-200]!
+     5a5: 3d 20 69 6e                  	mcrvs	p0, #3, r2, c9, c13, #1
+     5a9: 74 33 32 28                  	ldmdahs	r2!, {r2, r4, r5, r6, r8, r9, r12, sp}
+     5ad: 61 72 67 31                  	<unknown>
+     5b1: 2e 73 68 61                  	<unknown>
+     5b5: 70 65 5b 30                  	subslo	r6, r11, r0, ror r5
+     5b9: 5d 29 29 2c                  	stchs	p9, c2, [r9], #-372
+     5bd: 20 41 72 67                  	ldrbvs	r4, [r2, -r0, lsr #2]!
+     5c1: 75 6d 65 6e                  	mcrvs	p13, #3, r6, c5, c5, #3
+     5c5: 74 20 61 72                  	rsbvc	r2, r1, #116
+     5c9: 67 31 2e 73                  	<unknown>
+     5cd: 68 61 70 65                  	ldrbvs	r6, [r0, #-360]!
+     5d1: 5b 30 5d 20                  	subshs	r3, sp, r11, asr r0
+     5d5: 68 61 73 20                  	rsbshs	r6, r3, r8, ror #2
+     5d9: 61 6e 20 75                  	strvc	r6, [r0, #-3681]!
+     5dd: 6e 73 61 74                  	strbtvc	r7, [r1], #-878
+     5e1: 69 73 66 69                  	stmdbvs	r6!, {r0, r3, r5, r6, r8, r9, r12, sp, lr} ^
+     5e5: 65 64 20 63                  	<unknown>
+     5e9: 6f 6e 73 74                  	ldrbtvc	r6, [r3], #-3695
+     5ed: 72 61 69 6e                  	mcrvs	p1, #3, r6, c9, c2, #3
+     5f1: 74 3a 20 28                  	stmdahs	r0!, {r2, r4, r5, r6, r9, r11, r12, sp}
+     5f5: 31 30 32 34                  	ldrtlo	r3, [r2], #-49
+     5f9: 20 3d 3d 20                  	eorshs	r3, sp, r0, lsr #26
+     5fd: 69 6e 74 33                  	cmnlo	r4, #1680
+     601: 32 28 61 72                  	rsbvc	r2, r1, #3276800
+     605: 67 31 2e 73                  	<unknown>
+     609: 68 61 70 65                  	ldrbvs	r6, [r0, #-360]!
+     60d: 5b 30 5d 29                  	ldmdbhs	sp, {r0, r1, r3, r4, r6, r12, sp} ^
+     611: 29 00 41 73                  	<unknown>
+
+00000613 .L.str.12:
+     613: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     617: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     61b: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a36a>
+     61f: 20 28 31 20                  	eorshs	r2, r1, r0, lsr #16
+     623: 3d 3d 20 69                  	stmdbvs	r0!, {r0, r2, r3, r4, r5, r8, r10, r11, r12, sp}
+     627: 6e 74 33 32                  	eorslo	r7, r3, #1845493760
+     62b: 28 61 72 67                  	ldrbvs	r6, [r2, -r8, lsr #2]!
+     62f: 31 2e 73 74                  	ldrbtvc	r2, [r3], #-3633
+     633: 72 69 64 65                  	strbvs	r6, [r4, #-2418]!
+     637: 73 5b 30 5d                  	<unknown>
+     63b: 29 29 2c 20                  	eorhs	r2, r12, r9, lsr #18
+     63f: 61 72 67 31                  	<unknown>
+     643: 2e 73 74 72                  	rsbsvc	r7, r4, #-1207959552
+     647: 69 64 65 73                  	<unknown>
+     64b: 3a 20 65 78                  	stmdavc	r5!, {r1, r3, r4, r5, sp} ^
+     64f: 70 65 63 74                  	strbtvc	r6, [r3], #-1392
+     653: 65 64 20 74                  	strtvc	r6, [r0], #-1125
+     657: 6f 20 62 65                  	strbvs	r2, [r2, #-111]!
+     65b: 20 63 6f 6d                  	stclvs	p3, c6, [pc, #-128]!
+     65f: 70 61 63 74                  	strbtvc	r6, [r3], #-368
+     663: 20 61 72 72                  	rsbsvc	r6, r2, #32, #2
+     667: 61 79 00 41                  	<unknown>
+
+0000066a .L.str.13:
+     66a: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     66e: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     672: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a3c1>
+     676: 20 28 28 75                  	strvc	r2, [r8, #-2080]!
+     67a: 69 6e 74 36                  	ldrbtlo	r6, [r4], -r9, ror #28
+     67e: 34 29 30 20                  	eorshs	r2, r0, r4, lsr r9
+     682: 3d 3d 20 74                  	strtvc	r3, [r0], #-3389
+     686: 69 72 2e 74                  	strtvc	r7, [lr], #-617
+     68a: 76 6d 5f 73                  	cmpvc	pc, #7552
+     68e: 74 72 75 63                  	cmnvs	r5, #116, #4
+     692: 74 5f 67 65                  	strbvs	r5, [r7, #-3956]!
+     696: 74 28 61 72                  	rsbvc	r2, r1, #116, #16
+     69a: 67 31 2c 20                  	eorhs	r3, r12, r7, ror #2
+     69e: 30 2c 20 38                  	stmdalo	r0!, {r4, r5, r10, r11, sp}
+     6a2: 29 29 2c 20                  	eorhs	r2, r12, r9, lsr #18
+     6a6: 41 72 67 75                  	strbvc	r7, [r7, #-577]!
+     6aa: 6d 65 6e 74                  	strbtvc	r6, [lr], #-1389
+     6ae: 20 61 72 67                  	ldrbvs	r6, [r2, -r0, lsr #2]!
+     6b2: 31 2e 62 79                  	stmdbvc	r2!, {r0, r4, r5, r9, r10, r11, sp} ^
+     6b6: 74 65 5f 6f                  	svcvs	#6251892
+     6ba: 66 66 73 65                  	ldrbvs	r6, [r3, #-1638]!
+     6be: 74 20 68 61                  	<unknown>
+     6c2: 73 20 61 6e                  	mcrvs	p0, #3, r2, c1, c3, #3
+     6c6: 20 75 6e 73                  	<unknown>
+     6ca: 61 74 69 73                  	<unknown>
+     6ce: 66 69 65 64                  	strbtvs	r6, [r5], #-2406
+     6d2: 20 63 6f 6e                  	cdpvs	p3, #6, c6, c15, c0, #1
+     6d6: 73 74 72 61                  	cmnvs	r2, r3, ror r4
+     6da: 69 6e 74 3a                  	blo	#30521764 <__tvm_main__+0x1d1b849>
+     6de: 20 28 28 75                  	strvc	r2, [r8, #-2080]!
+     6e2: 69 6e 74 36                  	ldrbtlo	r6, [r4], -r9, ror #28
+     6e6: 34 29 30 20                  	eorshs	r2, r0, r4, lsr r9
+     6ea: 3d 3d 20 74                  	strtvc	r3, [r0], #-3389
+     6ee: 69 72 2e 74                  	strtvc	r7, [lr], #-617
+     6f2: 76 6d 5f 73                  	cmpvc	pc, #7552
+     6f6: 74 72 75 63                  	cmnvs	r5, #116, #4
+     6fa: 74 5f 67 65                  	strbvs	r5, [r7, #-3956]!
+     6fe: 74 28 61 72                  	rsbvc	r2, r1, #116, #16
+     702: 67 31 2c 20                  	eorhs	r3, r12, r7, ror #2
+     706: 30 2c 20 38                  	stmdalo	r0!, {r4, r5, r10, r11, sp}
+     70a: 29 29 00 41                  	<unknown>
+
+0000070d .L.str.14:
+     70d: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     711: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     715: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a464>
+     719: 20 28 31 20                  	eorshs	r2, r1, r0, lsr #16
+     71d: 3d 3d 20 74                  	strtvc	r3, [r0], #-3389
+     721: 69 72 2e 74                  	strtvc	r7, [lr], #-617
+     725: 76 6d 5f 73                  	cmpvc	pc, #7552
+     729: 74 72 75 63                  	cmnvs	r5, #116, #4
+     72d: 74 5f 67 65                  	strbvs	r5, [r7, #-3956]!
+     731: 74 28 61 72                  	rsbvc	r2, r1, #116, #16
+     735: 67 31 2c 20                  	eorhs	r3, r12, r7, ror #2
+     739: 30 2c 20 31                  	<unknown>
+     73d: 30 29 29 2c                  	stchs	p9, c2, [r9], #-192
+     741: 20 41 72 67                  	ldrbvs	r4, [r2, -r0, lsr #2]!
+     745: 75 6d 65 6e                  	mcrvs	p13, #3, r6, c5, c5, #3
+     749: 74 20 61 72                  	rsbvc	r2, r1, #116
+     74d: 67 31 2e 64                  	strtvs	r3, [lr], #-359
+     751: 65 76 69 63                  	<unknown>
+     755: 65 5f 74 79                  	ldmdbvc	r4!, {r0, r2, r5, r6, r8, r9, r10, r11, r12, lr} ^
+     759: 70 65 20 68                  	stmdavs	r0!, {r4, r5, r6, r8, r10, sp, lr}
+     75d: 61 73 20 61                  	<unknown>
+     761: 6e 20 75 6e                  	cdpvs	p0, #7, c2, c5, c14, #3
+     765: 73 61 74 69                  	ldmdbvs	r4!, {r0, r1, r4, r5, r6, r8, sp, lr} ^
+     769: 73 66 69 65                  	strbvs	r6, [r9, #-1651]!
+     76d: 64 20 63 6f                  	svcvs	#6496356
+     771: 6e 73 74 72                  	rsbsvc	r7, r4, #-1207959551
+     775: 61 69 6e 74                  	strbtvc	r6, [lr], #-2401
+     779: 3a 20 28 31                  	<unknown>
+     77d: 20 3d 3d 20                  	eorshs	r3, sp, r0, lsr #26
+     781: 74 69 72 2e                  	mrchs	p9, #3, r6, c2, c4, #3
+     785: 74 76 6d 5f                  	svcpl	#7173748
+     789: 73 74 72 75                  	ldrbvc	r7, [r2, #-1139]!
+     78d: 63 74 5f 67                  	ldrbvs	r7, [pc, -r3, ror #8]
+     791: 65 74 28 61                  	<unknown>
+     795: 72 67 31 2c                  	ldchs	p7, c6, [r1], #-456
+     799: 20 30 2c 20                  	eorhs	r3, r12, r0, lsr #32
+     79d: 31 30 29 29                  	stmdbhs	r9!, {r0, r4, r5, r12, sp}
+     7a1: 00 41 73 73                  	cmnvc	r3, #0, #2
+
+000007a2 .L.str.15:
+     7a2: 41 73 73 65                  	ldrbvs	r7, [r3, #-833]!
+     7a6: 72 74 20 66                  	qsub16vs	r7, r0, r2
+     7aa: 61 69 6c 3a                  	blo	#28419460 <__tvm_main__+0x1b1a4f9>
+     7ae: 20 28 64 65                  	strbvs	r2, [r4, #-2080]!
+     7b2: 76 5f 69 64                  	strbtvs	r5, [r9], #-3958
+     7b6: 20 3d 3d 20                  	eorshs	r3, sp, r0, lsr #26
+     7ba: 74 69 72 2e                  	mrchs	p9, #3, r6, c2, c4, #3
+     7be: 74 76 6d 5f                  	svcpl	#7173748
+     7c2: 73 74 72 75                  	ldrbvc	r7, [r2, #-1139]!
+     7c6: 63 74 5f 67                  	ldrbvs	r7, [pc, -r3, ror #8]
+     7ca: 65 74 28 61                  	<unknown>
+     7ce: 72 67 31 2c                  	ldchs	p7, c6, [r1], #-456
+     7d2: 20 30 2c 20                  	eorhs	r3, r12, r0, lsr #32
+     7d6: 39 29 29 2c                  	stchs	p9, c2, [r9], #-228
+     7da: 20 41 72 67                  	ldrbvs	r4, [r2, -r0, lsr #2]!
+     7de: 75 6d 65 6e                  	mcrvs	p13, #3, r6, c5, c5, #3
+     7e2: 74 20 61 72                  	rsbvc	r2, r1, #116
+     7e6: 67 31 2e 64                  	strtvs	r3, [lr], #-359
+     7ea: 65 76 69 63                  	<unknown>
+     7ee: 65 5f 69 64                  	strbtvs	r5, [r9], #-3941
+     7f2: 20 68 61 73                  	<unknown>
+     7f6: 20 61 6e 20                  	rsbhs	r6, lr, r0, lsr #2
+     7fa: 75 6e 73 61                  	cmnvs	r3, r5, ror lr
+     7fe: 74 69 73 66                  	uhsub16vs	r6, r3, r4
+     802: 69 65 64 20                  	rsbhs	r6, r4, r9, ror #10
+     806: 63 6f 6e 73                  	<unknown>
+     80a: 74 72 61 69                  	stmdbvs	r1!, {r2, r4, r5, r6, r9, r12, sp, lr} ^
+     80e: 6e 74 3a 20                  	eorshs	r7, r10, lr, ror #8
+     812: 28 64 65 76                  	strbtvc	r6, [r5], -r8, lsr #8
+     816: 5f 69 64 20                  	rsbhs	r6, r4, pc, asr r9
+     81a: 3d 3d 20 74                  	strtvc	r3, [r0], #-3389
+     81e: 69 72 2e 74                  	strtvc	r7, [lr], #-617
+     822: 76 6d 5f 73                  	cmpvc	pc, #7552
+     826: 74 72 75 63                  	cmnvs	r5, #116, #4
+     82a: 74 5f 67 65                  	strbvs	r5, [r7, #-3956]!
+     82e: 74 28 61 72                  	rsbvc	r2, r1, #116, #16
+     832: 67 31 2c 20                  	eorhs	r3, r12, r7, ror #2
+     836: 30 2c 20 39                  	stmdblo	r0!, {r4, r5, r10, r11, sp}
+     83a: 29 29 00 61                  	<unknown>
+
+0000083d __tvm_main__:
+     83d: 61 64 64 5f                  	svcpl	#6579297
+     841: 6f 6e 65 00                  	rsbeq	r6, r5, pc, ror #28
+
+Disassembly of section .debug_str:
+
+00000000 .debug_str:
+       0: 54 56 4d 00                  	subeq	r5, sp, r4, asr r6
+       4: 6d 6f 64 65                  	strbvs	r6, [r4, #-3949]!
+       8: 6c 2e 74 76                  	ldrbtvc	r2, [r4], -r12, ror #28
+       c: 6d 00 2f 74                  	strtvc	r0, [pc], #-109
+      10: 6d 70 2f 00                  	eoreq	r7, pc, sp, rrx
+
+Disassembly of section .debug_abbrev:
+
+00000000 .debug_abbrev:
+       0: 01 11 00 25                  	strhs	r1, [r0, #-257]
+       4: 0e 13 05 03                  	<unknown>
+       8: 0e 10 17 1b                  	blne	#6045752 <.debug_abbrev+0x5c4048>
+       c: 0e b4 42 19                  	stmdbne	r2, {r1, r2, r3, r10, r12, sp, pc} ^
+      10: b1 42 07 00                  	strheq	r4, [r7], -r1
+      14: 00                           	<unknown>
+      15: 00                           	<unknown>
+
+Disassembly of section .debug_info:
+
+00000000 .debug_info:
+       0: 22 00 00 00                  	andeq	r0, r0, r2, lsr #32
+       4: 04 00 00 00                  	andeq	r0, r0, r4
+       8: 00 00 04 01                  	<unknown>
+       c: 00 00 00 00                  	andeq	r0, r0, r0
+      10: 02 00 00 00                  	andeq	r0, r0, r2
+		...
+      1c: 00 00 01 00                  	andeq	r0, r1, r0
+      20: 00 00 00 00                  	andeq	r0, r0, r0
+      24: 00                           	<unknown>
+      25: 00                           	<unknown>
+
+Disassembly of section .rel.debug_info:
+
+00000000 .rel.debug_info:
+       0: 06 00 00 00                  	andeq	r0, r0, r6
+       4: 02 1a 00 00                  	andeq	r1, r0, r2, lsl #20
+       8: 0c 00 00 00                  	andeq	r0, r0, r12
+       c: 02 03 00 00                  	andeq	r0, r0, r2, lsl #6
+      10: 12 00 00 00                  	andeq	r0, r0, r2, lsl r0
+      14: 02 04 00 00                  	andeq	r0, r0, r2, lsl #8
+      18: 16 00 00 00                  	andeq	r0, r0, r6, lsl r0
+      1c: 02 1d 00 00                  	andeq	r1, r0, r2, lsl #26
+      20: 1a 00 00 00                  	andeq	r0, r0, r10, lsl r0
+      24: 02 02 00 00                  	andeq	r0, r0, r2, lsl #4
+
+Disassembly of section .debug_pubnames:
+
+00000000 .debug_pubnames:
+       0: 0e 00 00 00                  	andeq	r0, r0, lr
+       4: 02 00 00 00                  	andeq	r0, r0, r2
+       8: 00 00 26 00                  	eoreq	r0, r6, r0
+       c: 00 00 00 00                  	andeq	r0, r0, r0
+      10: 00                           	<unknown>
+      11: 00                           	<unknown>
+
+Disassembly of section .rel.debug_pubnames:
+
+00000000 .rel.debug_pubnames:
+       0: 06 00 00 00                  	andeq	r0, r0, r6
+       4: 02 1b 00 00                  	andeq	r1, r0, r2, lsl #22
+
+Disassembly of section .debug_pubtypes:
+
+00000000 .debug_pubtypes:
+       0: 0e 00 00 00                  	andeq	r0, r0, lr
+       4: 02 00 00 00                  	andeq	r0, r0, r2
+       8: 00 00 26 00                  	eoreq	r0, r6, r0
+       c: 00 00 00 00                  	andeq	r0, r0, r0
+      10: 00                           	<unknown>
+      11: 00                           	<unknown>
+
+Disassembly of section .rel.debug_pubtypes:
+
+00000000 .rel.debug_pubtypes:
+       0: 06 00 00 00                  	andeq	r0, r0, r6
+       4: 02 1b 00 00                  	andeq	r1, r0, r2, lsl #22
+
+Disassembly of section .ARM.attributes:
+
+00000000 .ARM.attributes:
+       0: 41 31 00 00                  	andeq	r3, r0, r1, asr #2
+       4: 00 61 65 61                  	<unknown>
+       8: 62 69 00 01                  	<unknown>
+       c: 27 00 00 00                  	andeq	r0, r0, r7, lsr #32
+      10: 43 32 2e 30                  	eorlo	r3, lr, r3, asr #4
+      14: 39 00 06 01                  	<unknown>
+      18: 08 01 0e 00                  	andeq	r0, lr, r8, lsl #2
+      1c: 0f 01 10 01                  	tsteq	r0, pc, lsl #2
+      20: 11 02 14 01                  	tsteq	r4, r1, lsl r2
+      24: 15 00 17 03                  	tsteq	r7, #21
+      28: 18 01 19 01                  	tsteq	r9, r8, lsl r1
+      2c: 1c 01 22 01                  	<unknown>
+      30: 26                           	<unknown>
+      31: 01                           	<unknown>
+
+Disassembly of section .debug_frame:
+
+00000000 .debug_frame:
+       0: 10 00 00 00                  	andeq	r0, r0, r0, lsl r0
+       4: ff ff ff ff                  	<unknown>
+       8: 04 00 04 00                  	andeq	r0, r4, r4
+       c: 01 7c 0e 0c                  	<unknown>
+      10: 0d 00 00 00                  	andeq	r0, r0, sp
+      14: 18 00 00 00                  	andeq	r0, r0, r8, lsl r0
+		...
+      20: 5c 03 00 00                  	andeq	r0, r0, r12, asr r3
+      24: 44 0e 10 8e                  	cdphi	p14, #1, c0, c0, c4, #2
+      28: 01 86 02 85                  	strhi	r8, [r2, #-1537]
+      2c: 03 84 04 00                  	andeq	r8, r4, r3, lsl #8
+      30: 18 00 00 00                  	andeq	r0, r0, r8, lsl r0
+      34: 00 00 00 00                  	andeq	r0, r0, r0
+      38: 5c 03 00 00                  	andeq	r0, r0, r12, asr r3
+      3c: 34 00 00 00                  	andeq	r0, r0, r4, lsr r0
+      40: 44 0e 10 8e                  	cdphi	p14, #1, c0, c0, c4, #2
+      44: 01 86 02 85                  	strhi	r8, [r2, #-1537]
+      48: 03 84 04 00                  	andeq	r8, r4, r3, lsl #8
+
+Disassembly of section .rel.debug_frame:
+
+00000000 .rel.debug_frame:
+       0: 18 00 00 00                  	andeq	r0, r0, r8, lsl r0
+       4: 02 1c 00 00                  	andeq	r1, r0, r2, lsl #24
+       8: 1c 00 00 00                  	andeq	r0, r0, r12, lsl r0
+       c: 02 19 00 00                  	andeq	r1, r0, r2, lsl #18
+      10: 34 00 00 00                  	andeq	r0, r0, r4, lsr r0
+      14: 02 1c 00 00                  	andeq	r1, r0, r2, lsl #24
+      18: 38 00 00 00                  	andeq	r0, r0, r8, lsr r0
+      1c: 02 19 00 00                  	andeq	r1, r0, r2, lsl #18
+
+Disassembly of section .debug_line:
+
+00000000 .debug_line:
+       0: 1a 00 00 00                  	andeq	r0, r0, r10, lsl r0
+       4: 04 00 14 00                  	andseq	r0, r4, r4
+       8: 00 00 01 01                  	mrseq	r0, apsr
+       c: 01 fb 0e 0d                  	<unknown>
+      10: 00 01 01 01                  	mrseq	r0, apsr
+      14: 01 00 00 00                  	andeq	r0, r0, r1
+      18: 01 00 00 01                  	<unknown>
+      1c: 00                           	<unknown>
+      1d: 00                           	<unknown>
+
+Disassembly of section .symtab:
+
+00000000 .symtab:
+		...
+      10: d1 00 00 00                  	ldrdeq	r0, r1, [r0], -r1
+		...
+      1c: 04 00 f1 ff                  	<unknown>
+      20: 00 00 00 00                  	andeq	r0, r0, r0
+      24: 0e 00 00 00                  	andeq	r0, r0, lr
+      28: 00 00 00 00                  	andeq	r0, r0, r0
+      2c: 00 00 08 00                  	andeq	r0, r8, r0
+		...
+      3c: 00 00 08 00                  	andeq	r0, r8, r0
+      40: 00 00 00 00                  	andeq	r0, r0, r0
+      44: 04 00 00 00                  	andeq	r0, r0, r4
+      48: 00 00 00 00                  	andeq	r0, r0, r0
+      4c: 00 00 08 00                  	andeq	r0, r8, r0
+      50: c7 01 00 00                  	andeq	r0, r0, r7, asr #3
+		...
+      5c: 00 00 02 00                  	andeq	r0, r2, r0
+      60: 89 01 00 00                  	andeq	r0, r0, r9, lsl #3
+      64: 5c 03 00 00                  	andeq	r0, r0, r12, asr r3
+      68: 00 00 00 00                  	andeq	r0, r0, r0
+      6c: 00 00 02 00                  	andeq	r0, r2, r0
+      70: a1 01 00 00                  	andeq	r0, r0, r1, lsr #3
+      74: dc 02 00 00                  	ldrdeq	r0, r1, [r0], -r12
+      78: 00 00 00 00                  	andeq	r0, r0, r0
+      7c: 00 00 02 00                  	andeq	r0, r2, r0
+      80: 70 00 00 00                  	andeq	r0, r0, r0, ror r0
+      84: 00 00 00 00                  	andeq	r0, r0, r0
+      88: 3c 00 00 00                  	andeq	r0, r0, r12, lsr r0
+      8c: 01 00 07 00                  	andeq	r0, r7, r1
+      90: 98 01 00 00                  	<unknown>
+      94: 3c 00 00 00                  	andeq	r0, r0, r12, lsr r0
+      98: 87 00 00 00                  	andeq	r0, r0, r7, lsl #1
+      9c: 01 00 07 00                  	andeq	r0, r7, r1
+      a0: bd 01 00 00                  	strheq	r0, [r0], -sp
+      a4: cb 04 00 00                  	andeq	r0, r0, r11, asr #9
+      a8: c6 00 00 00                  	andeq	r0, r0, r6, asr #1
+      ac: 01 00 07 00                  	andeq	r0, r7, r1
+      b0: 8e 01 00 00                  	andeq	r0, r0, lr, lsl #3
+      b4: 91 05 00 00                  	<unknown>
+      b8: 82 00 00 00                  	andeq	r0, r0, r2, lsl #1
+      bc: 01 00 07 00                  	andeq	r0, r7, r1
+      c0: 76 01 00 00                  	andeq	r0, r0, r6, ror r1
+      c4: 13 06 00 00                  	andeq	r0, r0, r3, lsl r6
+      c8: 57 00 00 00                  	andeq	r0, r0, r7, asr r0
+      cc: 01 00 07 00                  	andeq	r0, r7, r1
+      d0: 63 01 00 00                  	andeq	r0, r0, r3, ror #2
+      d4: 6a 06 00 00                  	andeq	r0, r0, r10, ror #12
+      d8: a3 00 00 00                  	andeq	r0, r0, r3, lsr #1
+      dc: 01 00 07 00                  	andeq	r0, r7, r1
+      e0: 47 01 00 00                  	andeq	r0, r0, r7, asr #2
+      e4: 0d 07 00 00                  	andeq	r0, r0, sp, lsl #14
+      e8: 95 00 00 00                  	<unknown>
+      ec: 01 00 07 00                  	andeq	r0, r7, r1
+      f0: 34 01 00 00                  	andeq	r0, r0, r4, lsr r1
+      f4: a2 07 00 00                  	andeq	r0, r0, r2, lsr #15
+      f8: 9b 00 00 00                  	<unknown>
+      fc: 01 00 07 00                  	andeq	r0, r7, r1
+     100: 80 01 00 00                  	andeq	r0, r0, r0, lsl #3
+     104: c3 00 00 00                  	andeq	r0, r0, r3, asr #1
+     108: 87 00 00 00                  	andeq	r0, r0, r7, lsl #1
+     10c: 01 00 07 00                  	andeq	r0, r7, r1
+     110: 6d 01 00 00                  	andeq	r0, r0, sp, ror #2
+     114: 4a 01 00 00                  	andeq	r0, r0, r10, asr #2
+     118: 55 00 00 00                  	andeq	r0, r0, r5, asr r0
+     11c: 01 00 07 00                  	andeq	r0, r7, r1
+     120: 51 01 00 00                  	andeq	r0, r0, r1, asr r1
+     124: 9f 01 00 00                  	<unknown>
+     128: c6 00 00 00                  	andeq	r0, r0, r6, asr #1
+     12c: 01 00 07 00                  	andeq	r0, r7, r1
+     130: 3e 01 00 00                  	andeq	r0, r0, lr, lsr r1
+     134: 65 02 00 00                  	andeq	r0, r0, r5, ror #4
+     138: 82 00 00 00                  	andeq	r0, r0, r2, lsl #1
+     13c: 01 00 07 00                  	andeq	r0, r7, r1
+     140: 2b 01 00 00                  	andeq	r0, r0, r11, lsr #2
+     144: e7 02 00 00                  	andeq	r0, r0, r7, ror #5
+     148: 57 00 00 00                  	andeq	r0, r0, r7, asr r0
+     14c: 01 00 07 00                  	andeq	r0, r7, r1
+     150: 22 01 00 00                  	andeq	r0, r0, r2, lsr #2
+     154: 3e 03 00 00                  	andeq	r0, r0, lr, lsr r3
+     158: a3 00 00 00                  	andeq	r0, r0, r3, lsr #1
+     15c: 01 00 07 00                  	andeq	r0, r7, r1
+     160: 19 01 00 00                  	andeq	r0, r0, r9, lsl r1
+     164: e1 03 00 00                  	andeq	r0, r0, r1, ror #7
+     168: 95 00 00 00                  	<unknown>
+     16c: 01 00 07 00                  	andeq	r0, r7, r1
+     170: 10 01 00 00                  	andeq	r0, r0, r0, lsl r1
+     174: 76 04 00 00                  	andeq	r0, r0, r6, ror r4
+     178: 55 00 00 00                  	andeq	r0, r0, r5, asr r0
+     17c: 01 00 07 00                  	andeq	r0, r7, r1
+     180: f0 00 00 00                  	strdeq	r0, r1, [r0], -r0
+     184: 5c 03 00 00                  	andeq	r0, r0, r12, asr r3
+     188: 34 00 00 00                  	andeq	r0, r0, r4, lsr r0
+     18c: 02 00 02 00                  	andeq	r0, r2, r2
+		...
+     19c: 03 00 02 00                  	andeq	r0, r2, r3
+		...
+     1ac: 03 00 09 00                  	andeq	r0, r9, r3
+		...
+     1bc: 03 00 0a 00                  	andeq	r0, r10, r3
+		...
+     1cc: 03 00 12 00                  	andseq	r0, r2, r3
+		...
+     1dc: 03 00 14 00                  	andseq	r0, r4, r3
+     1e0: 77 00 00 00                  	andeq	r0, r0, r7, ror r0
+     1e4: 00 00 00 00                  	andeq	r0, r0, r0
+     1e8: 04 00 00 00                  	andeq	r0, r0, r4
+     1ec: 21 00 06 00                  	andeq	r0, r6, r1, lsr #32
+     1f0: 5a 01 00 00                  	andeq	r0, r0, r10, asr r1
+		...
+     1fc: 10 00 00 00                  	andeq	r0, r0, r0, lsl r0
+     200: a6 01 00 00                  	andeq	r0, r0, r6, lsr #3
+		...
+     20c: 10 00 00 00                  	andeq	r0, r0, r0, lsl r0
+     210: 03 01 00 00                  	andeq	r0, r0, r3, lsl #2
+     214: 3d 08 00 00                  	andeq	r0, r0, sp, lsr r8
+     218: 08 00 00 00                  	andeq	r0, r0, r8
+     21c: 21 00 07 00                  	andeq	r0, r7, r1, lsr #32
+     220: ac 00 00 00                  	andeq	r0, r0, r12, lsr #1
+     224: 00 00 00 00                  	andeq	r0, r0, r0
+     228: 5c 03 00 00                  	andeq	r0, r0, r12, asr r3
+     22c: 12 00 02 00                  	andeq	r0, r2, r2, lsl r0
